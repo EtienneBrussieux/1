@@ -1,6 +1,4 @@
 instruction:
 
 voici le message d'erreur que j'ai, corrige le:
-
-Failed to load resource: the server responded with a status of 404 (NOT FOUND) :5000/favicon.ico:1 
-Uncaught SyntaxError: missing ) after argument list localhost/:1471
+ Uncaught SyntaxError: missing ) after argument list localhost/:1470 
