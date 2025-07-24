@@ -1,0 +1,7 @@
+instruction:
+
+voici le message d'erreur que j'ai, corrige le:
+Uncaught NotFoundError: Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node.
+    at showFilterNotification ((index):1244:27)
+    at applyInteractiveFilter ((index):1128:13)
+    at HTMLDivElement.<anonymous> ((index):1811:21)
