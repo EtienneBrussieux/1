@@ -1,4 +1,4 @@
 instruction:
 
 voici le message d'erreur que j'ai, corrige le:
-uncaught SyntaxError: missing ) after argument list localhost/:1292
+Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR) :5000/api/dashboard-data?sprint=all&team=all:1
