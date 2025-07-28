@@ -1,42 +1,25 @@
-🔧 [DEBUG] loadDashboardData called with: Object
-(index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: Object
-(index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: Object
-(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
-(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
-(index):3045 🔧 [DEBUG] Calling selectSingleSprint
+ [DEBUG] Calling selectSingleSprint
 (index):1476 🔧 [DEBUG] selectSingleSprint called
 (index):1444 🔧 [DEBUG] activateSnapshotForSprint called
 (index):1456 🔧 [DEBUG] Snapshot mode activated: true
 (index):1457 🔧 [DEBUG] Current sprint set
 (index):1470 🔧 [DEBUG] Loading dashboard data with snapshot mode
-(index):2170 🔧 [DEBUG] loadDashboardData called with: Object
+(index):2170 🔧 [DEBUG] loadDashboardData called with: {sprintFilter: '[SPRINT_NAME]', forceSnapshot: true, teamFilter: '[TEAM_NAME]', interactiveFilters: '[FILTERS]'}
 (index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: Object
+(index):2252 🔧 [DEBUG] Server response received: {historicalSnapshot: null, hasEndDate: true, snapshotDate: null, metricsCount: 12}
 (index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: Object
-(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
-(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
-(index):2170 🔧 [DEBUG] loadDashboardData called with: Object
-(index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: Object
-(index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: Object
-(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
-(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
-(index):2170 🔧 [DEBUG] loadDashboardData called with: Object
-(index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: Object
-(index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: Object
-(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
-(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
+(index):2659 🔧 [DEBUG] Data received: {done: Array(15), endDates: Array(15), inProgress: Array(15), sprints: Array(15), toDo: Array(15)}
+(index):2661 🔧 [DEBUG] Container found: <div class=​"line-chart" id=​"sprintVelocityChart">​…​</div>​
+(index):2957 🔧 [DEBUG] HTML set in container, length: 38094
+(index):2961 🔧 [DEBUG] Found 15 velocity bars to add listeners
+(index):2962 🔧 [DEBUG] Bars elements: NodeList(15) [div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar]
+(index):3005 🔧 [DEBUG] Found 34 segments to add listeners
+(index):3006 🔧 [DEBUG] Segments elements: NodeList(34) [div.segment-done, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-todo, div.segment-done]
+(index):3047 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
+(index):3075 🔧 [DEBUG] Found 3 legend items to add listeners
+(index):3076 🔧 [DEBUG] Legend items elements: NodeList(3) [div.legend-item, div.legend-item, div.legend-item]
+(index):2283 XHR chargement terminé : GET "http://localhost:5000...
+loadDashboardData @ (index):2283
+activateSnapshotForSprint @ (index):1471
+selectSingleSprint @ (index):1481
+(anonymes) @ (index):3060
