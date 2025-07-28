@@ -4,8 +4,10 @@
 (index):2658 🔧 [DEBUG] createSprintVelocityChart called
 (index):2659 🔧 [DEBUG] Data received: Object
 (index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):3032 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3044 🔧 [DEBUG] Calling selectSingleSprint
+(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
+(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
+(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
+(index):3045 🔧 [DEBUG] Calling selectSingleSprint
 (index):1476 🔧 [DEBUG] selectSingleSprint called
 (index):1444 🔧 [DEBUG] activateSnapshotForSprint called
 (index):1456 🔧 [DEBUG] Snapshot mode activated: true
@@ -17,29 +19,24 @@
 (index):2658 🔧 [DEBUG] createSprintVelocityChart called
 (index):2659 🔧 [DEBUG] Data received: Object
 (index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):3032 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):2170 🔧 [DEBUG] loadDashboardData called with: {sprintFilter: '[SPRINT_NAME]', forceSnapshot: false, teamFilter: '[TEAM_NAME]', interactiveFilters: '[FILTERS]'}
+(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
+(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
+(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
+(index):2170 🔧 [DEBUG] loadDashboardData called with: Object
 (index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: {historicalSnapshot: false, hasEndDate: false, snapshotDate: null, metricsCount: 12}
+(index):2252 🔧 [DEBUG] Server response received: Object
 (index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: {done: Array(14), endDates: Array(14), inProgress: Array(14), sprints: Array(14), toDo: Array(14)}
-(index):2959 🔧 [DEBUG] Found 14 velocity bars to add listeners
-(index):3032 🔧 [DEBUG] Found 14 clickable sprint names to add listeners
-(index):2283 XHR chargement terminé : GET
-loadDashboardData @ (index):2283
-applyStatusFilter @ (index):1794
-(anonymes) @ (index):3015
-(index):3044 🔧 [DEBUG] Calling selectSingleSprint
-(index):1476 🔧 [DEBUG] selectSingleSprint called
-(index):1444 🔧 [DEBUG] activateSnapshotForSprint called
-(index):1456 🔧 [DEBUG] Snapshot mode activated: true
-(index):1457 🔧 [DEBUG] Current sprint set
-(index):1470 🔧 [DEBUG] Loading dashboard data with snapshot mode
-(index):2170 🔧 [DEBUG] loadDashboardData called with: {sprintFilter: '[SPRINT_NAME]', forceSnapshot: true, teamFilter: '[TEAM_NAME]', interactiveFilters: '[FILTERS]'}
+(index):2659 🔧 [DEBUG] Data received: Object
+(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
+(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
+(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
+(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
+(index):2170 🔧 [DEBUG] loadDashboardData called with: Object
 (index):2229 🔧 [DEBUG] Request URL constructed with params
-(index):2252 🔧 [DEBUG] Server response received: {historicalSnapshot: null, hasEndDate: false, snapshotDate: null, metricsCount: 12}
+(index):2252 🔧 [DEBUG] Server response received: Object
 (index):2658 🔧 [DEBUG] createSprintVelocityChart called
-(index):2659 🔧 [DEBUG] Data received: {done: Array(14), endDates: Array(14), inProgress: Array(14), sprints: Array(14), toDo: Array(14)}
-(index):2959 🔧 [DEBUG] Found 14 velocity bars to add listeners
-(index):3032 🔧 [DEBUG] Found 14 clickable sprint names to add listeners
-(index):2283 XHR chargement terminé : GET
+(index):2659 🔧 [DEBUG] Data received: Object
+(index):2959 🔧 [DEBUG] Found 15 velocity bars to add listeners
+(index):2997 🔧 [DEBUG] Found 34 segments to add listeners
+(index):3033 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
+(index):3061 🔧 [DEBUG] Found 3 legend items to add listeners
