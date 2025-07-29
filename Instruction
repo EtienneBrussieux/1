@@ -1,29 +1,3 @@
-(index):3066 🔧 [DEBUG] Calling selectSingleSprint
-(index):1478 🔧 [DEBUG] selectSingleSprint called
-(index):1446 🔧 [DEBUG] activateSnapshotForSprint called
-(index):1458 🔧 [DEBUG] Snapshot mode activated: true
-(index):1459 🔧 [DEBUG] Current sprint set
-(index):1472 🔧 [DEBUG] Loading dashboard data with snapshot mode
-(index):2172 🔧 [DEBUG] loadDashboardData called with: {sprintFilter: '[SPRINT_NAME]', forceSnapshot: true, teamFilter: '[TEAM_NAME]', interactiveFilters: '[FILTERS]'}
-(index):2231 🔧 [DEBUG] Request URL constructed with params
-(index):2254 🔧 [DEBUG] Server response received: {historicalSnapshot: null, hasEndDate: true, snapshotDate: null, metricsCount: 12, sprintVelocityData: 'present', …}
-(index):2276 🔧 [DEBUG] About to call createSprintVelocityChart with data: {done: Array(15), endDates: Array(15), inProgress: Array(15), sprints: Array(15), toDo: Array(15)}
-(index):2663 🔧 [DEBUG] createSprintVelocityChart called
-(index):2664 🔧 [DEBUG] Data received: {done: Array(15), endDates: Array(15), inProgress: Array(15), sprints: Array(15), toDo: Array(15)}
-(index):2666 🔧 [DEBUG] Container found: <div class=​"line-chart" id=​"sprintVelocityChart">​…​</div>​
-(index):2962 🔧 [DEBUG] HTML set in container, length: 38160
-(index):2966 🔧 [DEBUG] Found 15 velocity bars to add listeners
-(index):2967 🔧 [DEBUG] Bars elements: NodeList(15) [div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar, div.velocity-bar]
-(index):3010 🔧 [DEBUG] Found 34 segments to add listeners
-(index):3011 🔧 [DEBUG] Segments elements: NodeList(34) [div.segment-done, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-done, div.segment-inprogress, div.segment-todo, div.segment-todo, div.segment-done]
-(index):3054 🔧 [DEBUG] Found 15 clickable sprint names to add listeners
-(index):3082 🔧 [DEBUG] Found 3 legend items to add listeners
-(index):3083 🔧 [DEBUG] Legend items elements: NodeList(3) [div.legend-item, div.legend-item, div.legend-item]
-(index):3085 🔧 [DEBUG] Adding click listener to legend item: <div class=​"legend-item" data-status=​"done" style=​"display:​ flex;​ align-items:​ center;​ gap:​ 8px;​ cursor:​ pointer;​ padding:​ 6px 12px;​ border-radius:​ 6px;​ transition:​ all 0.3s ease;​ background:​ rgba(255,255,255,0.05)​;​ border:​ 1px solid transparent;​" title=​"Cliquez pour filtrer par statut Done/​Resolved" onclick=​"console.log(🔧 [DEBUG]​ Legend item clicked via onclick)​">​…​</div>​flex
-(index):3085 🔧 [DEBUG] Adding click listener to legend item: <div class=​"legend-item" data-status=​"inprogress" style=​"display:​ flex;​ align-items:​ center;​ gap:​ 8px;​ cursor:​ pointer;​ padding:​ 6px 12px;​ border-radius:​ 6px;​ transition:​ all 0.3s ease;​ background:​ rgba(255,255,255,0.05)​;​ border:​ 1px solid transparent;​" title=​"Cliquez pour filtrer par statut In Progress">​…​</div>​flex
-(index):3085 🔧 [DEBUG] Adding click listener to legend item: <div class=​"legend-item" data-status=​"todo" style=​"display:​ flex;​ align-items:​ center;​ gap:​ 8px;​ cursor:​ pointer;​ padding:​ 6px 12px;​ border-radius:​ 6px;​ transition:​ all 0.3s ease;​ background:​ rgba(255,255,255,0.05)​;​ border:​ 1px solid transparent;​" title=​"Cliquez pour filtrer par statut To Do">​…​</div>​flex
-(index):2288 XHR chargement terminé : GET "http://localhost:5000/api/dashboard-data?sprint=T1E%20PI%231-S1&team=all&snapshot=true&view_mode=sprint".
-loadDashboardData @ (index):2288
-activateSnapshotForSprint @ (index):1473
-selectSingleSprint @ (index):1483
-(anonymes) @ (index):3067
+2025-07-29 13:31:55,609 - INFO - 🎯 Issues de base: 1129
+2025-07-29 13:31:55,616 - INFO - _get_sprint_velocity_analysis: Utilisation du cache
+2025-07-29 13:31:55,626 - INFO - 127.0.0.1 - - [29/Jul/2025 13:31:55] "GET /api/dashboard-data?sprint=all&team=all&view_mode=sprint HTTP/1.1" 200 -
